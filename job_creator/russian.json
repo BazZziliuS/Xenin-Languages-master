@@ -293,59 +293,59 @@
           }
         },
         "bans": {
-          "search": "Search by id/name",
+          "search": "Поиск по id/name",
           "add": {
-            "button": "Add Ban",
+            "button": "Добавить Запрет",
             "modal": {
               "title": "",
               "ban_button": "Ban",
               "info": {
                 "name": {
-                  "title": "Name",
+                  "title": "Имя",
                   "content": ":title:"
                 },
                 "size": {
-                  "title": "Size",
+                  "title": "Размер",
                   "content": ":size: MB"
                 },
                 "uniqueViews": {
-                  "title": "Unique Views",
+                  "title": "Уникальные Виды",
                   "content": ":views:"
                 },
                 "subscriptions": {
-                  "title": "Subscriptions",
+                  "title": "Подписки",
                   "content": ":subscriptions:"
                 },
                 "favorites": {
-                  "title": "Favourites",
+                  "title": "Избранное",
                   "content": ":favorites:"
                 },
                 "posted": {
-                  "title": "Posted",
+                  "title": "Опубликованный",
                   "content": "{{ fullDate(:epoch:) }}"
                 },
                 "last_updated": {
-                  "title": "Last Updated",
+                  "title": "Последнее обновление",
                   "content": "{{ fullDate(:epoch:) }}"
                 }
               }
             }
           },
           "title": {
-            "filter": ":filterHits:/:total: {{ grammaticalNumber(addon, :total:) }} visible",
-            "normal": ":total: {{ grammaticalNumber(addon, :total:) }} banned"
+            "filter": ":filterHits:/:total: {{ grammaticalNumber(addon, :total:) }} видимый",
+            "normal": ":total: {{ grammaticalNumber(addon, :total:) }} запрещенный"
           },
           "grid": {
             "open_addon": {
-              "button": "Open Addon"
+              "button": "Открыть Аддон"
             },
             "remove_ban": {
-              "button": "Remove Ban",
+              "button": "Снять Запрет",
               "modal": {
-                "title": "Remove Ban",
-                "description": "Are you sure you want to remove the ban?",
-                "yes": "Yes",
-                "no": "No"
+                "title": "Снять Запрет",
+                "description": "Вы уверены, что хотите снять запрет?",
+                "yes": "Да",
+                "no": "Нет"
               }
             },
             "id": "id: :id:"
@@ -353,69 +353,69 @@
         },
         "management": {
           "top": {
-            "search": "Search by job name",
-            "offline_players": "Show offline players jobs"
+            "search": "Поиск по названию работы",
+            "offline_players": "Показывать работы игроков в оффлайне"
           },
-          "loading": "Loading",
-          "no_results": "No Results",
-          "subtitle": "Owned by :name: (:sid:)",
+          "loading": "Загрузка",
+          "no_results": "Нет результатов",
+          "subtitle": "Принадлежащий :name: (:sid:)",
           "popup": {
-            "inspect": "Inspect Job",
-            "enable": "Enable Job",
-            "disable": "Disable Job"
+            "inspect": "Проверка работы",
+            "enable": "Включить работу",
+            "disable": "Выключить работу"
           }
         }
       },
       "hud": {
-        "fetching": "Fetching Info",
+        "fetching": "Получение информации",
         "status": [
-          "Starting Download",
-          "Downloading",
-          "Mounting",
-          "Finished",
+          "Запуск загрузки",
+          "Загрузка",
+          "Монтаж",
+          "Законченный",
           "Error"
         ]
       },
       "config": {
-        "auto_update": "Auto Update",
+        "auto_update": "Автоматическое обновление",
         "beta": "Beta",
-        "locked": "Locked to this version",
-        "changelogs": "Changelogs",
-        "lock": "Lock to this version",
+        "locked": "Привязан к этой версии",
+        "changelogs": "Списки изменений",
+        "lock": "Привязка к этой версии",
         "lock_modal": {
-          "title": "Lock to version :version:",
-          "description": "The addon will no longer auto update if you lock the version",
-          "yes": "Yes, that's fine",
-          "no": "Nevermind"
+          "title": "Привязка к версии :version:",
+          "description": "Аддон больше не будет автоматически обновляться, если вы заблокируете версию",
+          "yes": "Да, это прекрасно",
+          "no": "Не берите в голову"
         },
-        "loading": "Loading Versions",
-        "unable_to_load": "Unable to load versions remotely"
+        "loading": "Варианты загрузки",
+        "unable_to_load": "Невозможно загрузить версии удаленно"
       },
       "conversion": {
-        "exchange_rate": "Exchange Rate",
+        "exchange_rate": "Обменный курс",
         "darkrp_cash": "DarkRP Cash",
         "convert": {
-          "btn": "Convert",
+          "btn": "Преобразовать",
           "notifications": {
-            "no_darkrp_currency": "You cannot use this with your currency set to DarkRP Cash!",
-            "invalid": "Invalid currency conversion input!",
-            "cash_too_low": "Cash is too low! Needs to be at least :minimum:!",
-            "cant_afford": "You can't afford that!",
-            "success": "Converted :cash: into :credits: {{ grammaticalNumber(credit, :credits:) }}!"
+            "no_darkrp_currency": "Вы не можете использовать это, если ваша валюта установлена на DarkRP Cash!",
+            "invalid": "Неверный ввод данных для конвертации валюты!",
+            "cash_too_low": "Наличных денег слишком мало! Должно быть по крайней мере :minimum:!",
+            "cant_afford": "Ты не можешь себе этого позволить!",
+            "success": "Преобразовал :cash: в :credits: {{ grammaticalNumber(credit, :credits:) }}!"
           }
         }
       }
     },
     "notifications": {
       "currency_given": {
-        "text": "You were given :amount:"
+        "text": "Вам было дано :amount:"
       },
       "disabled_job": {
-        "content": "Your [:jobName:] job has been automatically disabled due to a larger than allowed update for the workshop addon.\nIt has been put into the approval queue, and is awaiting an admin to look at it",
+        "content": "Ваша работа [:jobName:] была автоматически отключена из-за большего, чем разрешено, обновления для дополнения workshop.\nОн был помещен в очередь утверждения и ожидает, когда администратор посмотрит на него",
         "popup": {
           "view": {
-            "text": "View Job",
-            "loading": "Getting job from database"
+            "text": "Просмотр Работ",
+            "loading": "Получение работы из базы данных"
           }
         }
       }
