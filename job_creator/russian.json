@@ -86,113 +86,113 @@
               "or": "или",
               "go_to_selected_model": "Перейти к выбранной модели"
             },
-            "no_models_selected": "No Models Selected",
+            "no_models_selected": "Модели Не выбраны",
             "import": {
               "workshop": {
-                "overview": "Import Model",
+                "overview": "Импорт модели",
                 "title": "Workshop URL",
                 "subtitle": ":base: + 1MB x :price:",
-                "continue_button": "Continue",
-                "invalid_url": "Invalid URL",
+                "continue_button": "Продолжить",
+                "invalid_url": "Недопустимый URL-адрес",
                 "checks": {
-                  "awaiting": "Loading...",
-                  "banned": "Workshop addon is banned by the server!",
-                  "in_use": "This addon is used by another job already!"
+                  "awaiting": "Загрузка...",
+                  "banned": "Аддон Workshop запрещен сервером!",
+                  "in_use": "Этот аддон уже используется другой работой!"
                 },
                 "loading": {
-                  "loading_info": "Loading Addon Info",
+                  "loading_info": "Загрузка Информации о дополнении",
                   "error": "Workshop error. Code: :code:",
-                  "disabled": "This addon has been disabled",
-                  "banned": "This addon has been banned",
-                  "downloading": "Downloading Addon",
-                  "unable_to_download": "Unable to download addon",
-                  "mounting": "Mounting Addon",
-                  "unable_to_mount": "Unable to mount addon",
-                  "no_files": "Addon doesn't have any files",
-                  "no_player_models": "Unable to find any playermodels"
+                  "disabled": "Этот аддон был отключен",
+                  "banned": "Этот аддон был запрещен",
+                  "downloading": "Загрузка Аддона",
+                  "unable_to_download": "Не удалось загрузить аддон",
+                  "mounting": "Установка Аддона",
+                  "unable_to_mount": "Не удалось установить аддон",
+                  "no_files": "В аддоне нет никаких файлов",
+                  "no_player_models": "Не удалось найти ни одной модели игрока"
                 },
                 "too_many": {
-                  "title": "Max models reached!",
-                  "description": "You can't add more models! You're at the limit",
-                  "replace_button": "Replace newest model",
-                  "nevermind_button": "Nevermind"
+                  "title": "Максимальное количество моделей, достигнутое!",
+                  "description": "Вы не можете добавлять больше моделей! Ты на пределе возможностей",
+                  "replace_button": "Заменить новейшую модель",
+                  "nevermind_button": "Не берите в голову"
                 }
               },
               "preview": {
-                "bodygroups": "Bodygroups",
-                "price": "Price"
+                "bodygroups": "Бодигруппы",
+                "price": "Цена"
               }
             }
           },
           "owners": {
-            "title": "Owners",
+            "title": "Владельцы",
             "overview": {
-              "title": ":amount: {{ grammaticalNumber(owner, :amount:) }}, :multiplier:x price",
-              "add_button": "Add Owner"
+              "title": ":amount: {{ grammaticalNumber(owner, :amount:) }}, :multiplier:x цена",
+              "add_button": "Добавить владельца"
             },
             "add_owner": {
-              "input_placeholder": "SteamID64 of new owner",
-              "no_player_name": "No Player",
-              "primary_owner": "Primary",
-              "additional_owner": "Secondary",
-              "fetching": "Fetching..."
+              "input_placeholder": "SteamID64 нового владельца",
+              "no_player_name": "Нет Игрока",
+              "primary_owner": "Первичный",
+              "additional_owner": "Вторичный",
+              "fetching": "Получаем..."
             }
           },
           "checkout": {
-            "title": "Checkout",
-            "overview": "Breakdown",
-            "unable_to_afford": "Unable to afford",
+            "title": "Проверка",
+            "overview": "Разрушение",
+            "unable_to_afford": "Не в состоянии позволить себе",
             "validation": {
-              "validating": "Validating Job",
-              "waiting_for_server": "Waiting for server"
+              "validating": "Проверка работы",
+              "waiting_for_server": "Ожидание сервера"
             },
             "fields": {
               "name": {
-                "title": "Name",
-                "empty": "Custom Job"
+                "title": "Имя",
+                "empty": "Кастомная Работа"
               },
-              "salary": "Salary",
-              "health": "Extra Health",
-              "armor": "Extra Armor",
-              "gun_license": "Gun License",
-              "weapons": "Weapons",
-              "models": "Models",
-              "owner_multiplier": "Owner multiplier",
-              "total": "Total",
-              "button": "Purchase Job",
+              "salary": "Зарплата",
+              "health": "Дополнительное здоровье",
+              "armor": "Дополнительная броня",
+              "gun_license": "Лицензия на оружие",
+              "weapons": "Оружие",
+              "models": "Модель",
+              "owner_multiplier": "Владелец множителя",
+              "total": "Суммарный",
+              "button": "Работа на покупку",
               "responses": [
-                "Success!",
-                "Unknown error",
-                "Invalid job!",
-                "Can't afford this"
+                "Успех!",
+                "Неизвестная ошибка",
+                "Недопустимая работа!",
+                "Не могу себе этого позволить"
               ],
               "errors": [
-                "There is no name",
-                "Name is too short",
-                "Name is too long",
-                "Name contains blacklisted word",
-                "Job has no salary",
-                "Salary is too low",
-                "Salary is too high",
-                "Job has no color",
-                "The color is invalid",
-                "You have an invalid weapon",
-                "You have too many weapons",
-                "You have an invalid model",
-                "You have too many models",
-                "You need at least 1 model",
-                "You have an invalid owner",
-                "Health is invalid",
-                "Health is too high",
-                "Armor is invalid",
-                "Armor is too high",
-                "You can't afford this",
-                "You already have max amount of jobs",
-                "Workshop addon is on the ban list"
+                "Там нет имени",
+                "Имя слишком короткое",
+                "Имя слишком длинное",
+                "Имя содержит слово, внесенное в черный список",
+                "Работа не имеет зарплаты",
+                "Зарплата слишком низкая",
+                "Зарплата слишком высока",
+                "Работа не имеет цвета",
+                "Цвет недопустим",
+                "У вас есть недействительное оружие",
+                "У вас слишком много оружия",
+                "У вас неверная модель",
+                "У вас слишком много моделей",
+                "Вам нужна как минимум 1 модель",
+                "У вас есть недействительный владелец",
+                "Здоровье недействительно",
+                "Здоровье слишком высоко",
+                "Броня недействительна",
+                "Броня слишком большая",
+                "Ты не можешь себе этого позволить",
+                "У вас уже есть максимальное количество заданий",
+                "Аддон Workshop находится в списке запрещенных"
               ]
             },
             "credits": {
-              "cancel": "Cancel",
+              "cancel": "Отменить",
               "currency_format": "+:currency:"
             }
           }
@@ -200,95 +200,95 @@
       },
       "main_menu": {
         "inspect": {
-          "worth": "Worth",
-          "edit_job": "Edit Job",
-          "go_back": "Go Back",
-          "delete": "Delete",
+          "worth": "Стоимость",
+          "edit_job": "Редактировать работу",
+          "go_back": "Назад",
+          "delete": "Удалить",
           "delete_modal": {
-            "title": "Delete :name:",
-            "description": "Are you sure you want to delete this custom job? It won't refund your payment",
-            "yes": "Yes",
-            "no": "No"
+            "title": "Удалить :name:",
+            "description": "Вы уверены, что хотите удалить это пользовательское задание? Это не вернет ваш платеж",
+            "yes": "Да",
+            "no": "Нет"
           },
           "fields": {
-            "name": "Name",
-            "salary": "Salary",
-            "color": "Colour"
+            "name": "Имя",
+            "salary": "Зарплата",
+            "color": "Цвет"
           }
         },
         "job": {
-          "inspect": "INSPECT",
-          "empty": "EMPTY",
+          "inspect": "ПРОВЕРИТЬ",
+          "empty": "ПУСТОЙ",
           "create_new": "СОЗДАТЬ НОВЫЙ",
-          "disabled_job": "DISABLED JOB"
+          "disabled_job": "ОТКЛЮЧЕННАЯ РАБОТА"
         },
         "tabs": {
           "your_jobs": "ТВОИ РАБОТЫ",
           "shared_jobs": "ОБЩИЕ РАБОТЫ"
         },
         "credits": {
-          "you_have": "You Have"
+          "you_have": "У тебя есть"
         }
       },
       "admin": {
         "tabs": {
           "job_management": {
-            "title": "Job Management",
-            "subtitle": "Manage jobs"
+            "title": "Управление работами",
+            "subtitle": "Работы менеджера"
           },
           "job_approval": {
-            "title": "Job Approval",
-            "subtitle": "Approve disabled jobs"
+            "title": "Утверждение работы",
+            "subtitle": "Отклонение работы"
           },
           "job_creator": {
-            "title": "Job Creator",
-            "subtitle": "Create jobs manually"
+            "title": "Создатель работы",
+            "subtitle": "Создание заданий вручную"
           },
           "job_editor": {
-            "title": "Job Editor",
-            "subtitle": "Edit jobs"
+            "title": "Редактор работы",
+            "subtitle": "Редактирование работы"
           },
           "workshop_bans": {
             "title": "Workshop Bans",
-            "subtitle": "Ban workshop addons"
+            "subtitle": "Запретить workshop аддоны"
           },
           "player_manager": {
-            "title": "Player Manager",
-            "subtitle": "Manage players"
+            "title": "Менеджер игроков",
+            "subtitle": "Управляйте игроками"
           }
         },
         "job_inspector": {
-          "title": "Job Inspection",
-          "loading": "Loading"
+          "title": "Проверка работы",
+          "loading": "Загрузка"
         },
         "approval_queue": {
           "top": {
-            "search": "Search by job name",
-            "manually_disabled_job": "Show manually disabled jobs"
+            "search": "Поиск по названию работы",
+            "manually_disabled_job": "Показывать работы, отключенные вручную"
           },
           "disabled_reasons": [
-            "Awaiting manual approvement",
-            "Disabled by an admin",
-            "Workshop model has changed, and the model is too small!",
-            "Workshop model has changed, and the model is too big!",
-            "Workshop model has changed, and the size change is too drastic!"
+            "Ожидание утверждения вручную",
+            "Отключен администратором",
+            "Модель мастерской изменилась, и модель слишком мала!",
+            "Модель мастерской изменилась, и модель слишком большая!",
+            "Модель мастерской изменилась, и изменение размера слишком резкое!"
           ],
-          "loading": "Loading",
-          "no_results": "No Results",
+          "loading": "Загрузка",
+          "no_results": "Нет результатов",
           "popup": {
-            "inspect": "Inspect Job",
-            "accept": "Accept Job",
-            "decline": "Decline Job"
+            "inspect": "Проверка работы",
+            "accept": "Принять Работу",
+            "decline": "Отклонить Работу"
           }
         },
         "create": {
           "import": {
-            "button": "Import Lua Job",
-            "clear_button": "Clear Job",
+            "button": "Импорт Lua Работы",
+            "clear_button": "Очистить Работу",
             "popup": {
-              "import_button": "Import Job",
+              "import_button": "Работа на импорт",
               "title": "Lua code",
-              "placeholder": "Paste the Lua code for the job you wish to import"
+              "placeholder": "Вставьте код Lua для работы, которое вы хотите импортировать"
             }
           }
         },
