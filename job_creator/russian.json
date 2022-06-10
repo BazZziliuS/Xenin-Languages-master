@@ -223,8 +223,8 @@
           "disabled_job": "DISABLED JOB"
         },
         "tabs": {
-          "your_jobs": "YOUR JOBS",
-          "shared_jobs": "SHARED JOBS"
+          "your_jobs": "ТВОИ РАБОТЫ",
+          "shared_jobs": "ОБЩИЕ РАБОТЫ"
         },
         "credits": {
           "you_have": "You Have"
