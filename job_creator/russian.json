@@ -3,88 +3,88 @@
     "ui": {
       "job_editor": {
         "shared": {
-          "search": "Search",
-          "cancel": "Cancel",
-          "go_back": "Go Back",
-          "save": "Save",
-          "total_price": "Total Price",
-          "total_price_multiplier": "Total Price @ :multiplier:x",
-          "update_price": "Update Price",
-          "free": "Free"
+          "search": "Поиск",
+          "cancel": "Отменить",
+          "go_back": "Назад",
+          "save": "Сохранить",
+          "total_price": "Итоговая цена",
+          "total_price_multiplier": "Итоговая цена @ :multiplier:x",
+          "update_price": "Цена обновления",
+          "free": "Бесплатно"
         },
         "steps": {
           "basics": {
-            "title": "Job Basics",
+            "title": "Основы работы",
             "fields": {
               "name": {
-                "title": "Name",
-                "input_placeholder": "Job Name",
+                "title": "Имя",
+                "input_placeholder": "Название Работы",
                 "hint": {
-                  "too_few": "Too few characters! Minimum :minimum: characters",
-                  "too_many": "Too many characters! :characters:/:max: characters",
-                  "illegal": "Illegal name!",
-                  "valid": ":characters:/:max: characters"
+                  "too_few": "Слишком мало букв! Минимум :minimum: символ",
+                  "too_many": "Слишком много букв! :characters:/:max: символ",
+                  "illegal": "Незаконное имя!",
+                  "valid": ":characters:/:max: символов"
                 }
               },
               "salary": {
-                "title": "Salary",
-                "invalid": "Invalid salary"
+                "title": "Зарплата",
+                "invalid": "Недействительная зарплата"
               },
               "color": {
-                "title": "Colour"
+                "title": "Цвет"
               },
               "gun_license": {
-                "title": "Gun License"
+                "title": "Лицензия на оружие"
               },
               "start_health": {
-                "title": "Start Health",
+                "title": "Здоровье",
                 "symbol": "HP"
               },
               "start_armor": {
-                "title": "Start Armor",
+                "title": "Броня",
                 "symbol": "AP"
               },
               "description": {
-                "title": "Description",
-                "input_placeholder": "Job Description",
+                "title": "Описание",
+                "input_placeholder": "Описание Работы",
                 "hint": {
-                  "valid": ":characters:/:max: characters",
-                  "invalid": "Illegal description!"
+                  "valid": ":characters:/:max: символов",
+                  "invalid": "Незаконное описание!"
                 }
               },
               "category": {
-                "title": "Job Category"
+                "title": "Категория работы"
               }
             }
           },
           "integrations": {
-            "title": "Integrations"
+            "title": "Интеграции"
           },
           "weapons": {
-            "title": "Weapons",
+            "title": "Оружие",
             "overview": {
               "empty": ":amount:/:max: {{ grammaticalNumber(weapon, :max:) }}",
-              "not_empty": ":amount:/:max: {{ grammaticalNumber(weapon, :max:) }}, totalling :price:"
+              "not_empty": ":amount:/:max: {{ grammaticalNumber(weapon, :max:) }}, итого :price:"
             },
-            "edit_button": "Edit Weapons",
-            "no_weapons_selected": "No Weapons Selected"
+            "edit_button": "Редактировать Оружие",
+            "no_weapons_selected": "Оружие Не Выбрано"
           },
           "models": {
-            "title": "Models",
+            "title": "Модели",
             "overview": {
               "empty": ":amount:/:max: {{ grammaticalNumber(model, :max:) }}",
-              "not_empty": ":amount:/:max: {{ grammaticalNumber(model, :max:) }}, totalling :price:"
+              "not_empty": ":amount:/:max: {{ grammaticalNumber(model, :max:) }}, итого :price:"
             },
-            "change_model": "Change Model",
-            "edit_button": "Edit Models",
-            "import_button": "Import Model",
-            "unable_to_find_name": "Unable to find name",
-            "fetching": "Fetching...",
-            "worth": "Worth",
+            "change_model": "Изменить модель",
+            "edit_button": "Редактирование моделей",
+            "import_button": "Модель импорта",
+            "unable_to_find_name": "Не удалось найти имя",
+            "fetching": "Получаем...",
+            "worth": "Стоимость",
             "model_source": {
-              "select": "Select model source",
-              "or": "or",
-              "go_to_selected_model": "Go to Selected Model"
+              "select": "Выберите источник модели",
+              "or": "или",
+              "go_to_selected_model": "Перейти к выбранной модели"
             },
             "no_models_selected": "No Models Selected",
             "import": {
