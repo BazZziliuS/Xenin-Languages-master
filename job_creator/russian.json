@@ -219,7 +219,7 @@
         "job": {
           "inspect": "INSPECT",
           "empty": "EMPTY",
-          "create_new": "CREATE NEW",
+          "create_new": "СОЗДАТЬ НОВЫЙ",
           "disabled_job": "DISABLED JOB"
         },
         "tabs": {
